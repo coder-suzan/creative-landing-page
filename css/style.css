@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Oleo+Script:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: 'Anton', sans-serif;
+    font-size: 16px;
+}
+.myHeader{
+    height: 100%;
+    background-color: #D10C17;
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
+}
+.myHeader .logo{
+    font-family: 'Oleo Script', cursive;
+    color: #fff !important;
+    font-size: 40px;
+}
+.myHeader .navbar{
+    background: transparent;
+}
+.myHeader .navbar .nav-link{
+    color: #fff;
+    margin-left: 20px;
+    font-weight: 400;
+}
+
+.myHeader .navbar .navbar-toggler{
+    outline: none;
+    color: #fff;
+    background: #fff;
+}
+
+
+.myHeader .navbar .nav-link:hover{
+    transition: 0.5s;
+    color: #fff;
+    font-size: 20px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.myHeader h1,p{
+    color: #fff;
+    letter-spacing: 2px;
+}
+.myHeader p{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.myHeader h1 span{
+    font-size: 80px;
+}
+.myHeader button{
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    font-size: 20px;
+}
+.myHeader #myImg{
+    min-width: 400px;
+}
+.myHeader .product-show{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.myHeader .product-show img{
+    max-width: 60px;
+    cursor: pointer;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.myHeader .product-show img:hover{
+    transform: scale(1.2) translateY(-10px);
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
+    -webkit-transform: scale(1.2) translateY(-10px);
+    -moz-transform: scale(1.2) translateY(-10px);
+    -ms-transform: scale(1.2) translateY(-10px);
+    -o-transform: scale(1.2) translateY(-10px);
+}
+
+
+@media screen and (max-width: 420px){
+    .myHeader #myImg{
+        min-width: 200px;
+    }
+}
